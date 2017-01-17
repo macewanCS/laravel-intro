@@ -15,7 +15,7 @@ class DemoController extends Controller
      */
     public function index()
     {
-        return "Hello";
+        return view('demo');
     }
 
     /**

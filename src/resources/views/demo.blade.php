@@ -9,5 +9,5 @@
 @endsection
 
 @section('content')
-    <p>This is my body content.</p>
+    <p>You rolled a {{$roll}}</p>
 @endsection

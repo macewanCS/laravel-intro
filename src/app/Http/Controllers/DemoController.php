@@ -15,7 +15,7 @@ class DemoController extends Controller
      */
     public function index()
     {
-        return view('demo');
+        return view('demo', ['roll' => '7']);
     }
 
     /**
